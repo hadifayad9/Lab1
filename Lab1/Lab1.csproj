@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-Lab1-7E2562A0-6186-49BE-BB08-459D1A53B2A7</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20210919202607_BirthDateUpdate.cs" />
+    <Compile Remove="Data\Migrations\20210919202607_BirthDateUpdate.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210919202650_BirthDateUpdate.cs" />
+    <Compile Remove="Data\Migrations\20210919202650_BirthDateUpdate.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210919202918_UpdatedBirthday.cs" />
+    <Compile Remove="Data\Migrations\20210919202918_UpdatedBirthday.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210919203254_UpdatedBirthday.cs" />
+    <Compile Remove="Data\Migrations\20210919203254_UpdatedBirthday.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210919203622_UpdatedBirthday.cs" />
+    <Compile Remove="Data\Migrations\20210919203622_UpdatedBirthday.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210919203757_UpdatedBirthday.cs" />
+    <Compile Remove="Data\Migrations\20210919203757_UpdatedBirthday.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210919204502_UpdatedDate.cs" />
+    <Compile Remove="Data\Migrations\20210919204502_UpdatedDate.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210919204613_UpdatedDate.cs" />
+    <Compile Remove="Data\Migrations\20210919204613_UpdatedDate.Designer.cs" />
+    <Compile Remove="Migrations\20210919205213_ApplicationUser.cs" />
+    <Compile Remove="Migrations\20210919205213_ApplicationUser.Designer.cs" />
+    <Compile Remove="Migrations\20210919205323_ApplicationUser.cs" />
+    <Compile Remove="Migrations\20210919205323_ApplicationUser.Designer.cs" />
+    <Compile Remove="Migrations\20210920210035_TeamsAdded.cs" />
+    <Compile Remove="Migrations\20210920210035_TeamsAdded.Designer.cs" />
+    <Compile Remove="Migrations\20210920215807_NewTeam.cs" />
+    <Compile Remove="Migrations\20210920215807_NewTeam.Designer.cs" />
+    <Compile Remove="Migrations\20210920215918_NewTeam.cs" />
+    <Compile Remove="Migrations\20210920215918_NewTeam.Designer.cs" />
+    <Compile Remove="Migrations\20210920220117_NewTeam.cs" />
+    <Compile Remove="Migrations\20210920220117_NewTeam.Designer.cs" />
+    <Compile Remove="Migrations\20210920220316_NewTeam.cs" />
+    <Compile Remove="Migrations\20210920220316_NewTeam.Designer.cs" />
+    <Compile Remove="Migrations\20210920220847_NewTeam.cs" />
+    <Compile Remove="Migrations\20210920220847_NewTeam.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.18" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.18" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.18" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
+  </ItemGroup>
+
+</Project>
