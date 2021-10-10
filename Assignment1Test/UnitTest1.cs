@@ -6,12 +6,16 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace Assignment1Test
 {
     public class UnitTest1
     {
+        /**
+         * Checks to see if tpyes match
+         */
         [Fact]
         public async void  TeamsController_List()
         {
@@ -37,6 +41,19 @@ namespace Assignment1Test
             //var teams = Assert.IsType<List<TeamEntity>>(viewResult.ViewData["teamname"]);
             //var team = Assert.Single(teams);
             Assert.Equal(viewResult, result);
+        }
+        [Fact]
+        /**
+         * Checks to see if the date is nullable ir not
+         */
+        public void DateIsNullable()
+        {
+            // Arrange
+            TeamEntity teamEntity = new TeamEntity();
+
+
+            // Assert
+            Assert.Null(teamEntity.EstablishedDate);
         }
     }
 }
