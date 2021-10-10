@@ -1,4 +1,9 @@
-﻿using System;
+﻿/// <summary>
+/// I, Hadi Fayad, student number 000397306, certify that this material is my 
+///  original work. No other person's work has been used without due 
+///  acknowledgement and I have not made my work available to anyone else. 
+/// </summary>
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,13 +14,6 @@ using Lab1.Data;
 using Lab1.Models;
 using Microsoft.AspNetCore.Authorization;
 
-
-
-/// <summary>
-/// I, Hadi Fayad, student number 000397306, certify that this material is my 
-///  original work. No other person's work has been used without due 
-///  acknowledgement and I have not made my work available to anyone else. 
-/// </summary>
 namespace Lab1.Controllers
 {
     [Authorize(Roles = "Manager,Player")]
